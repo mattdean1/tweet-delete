@@ -23,7 +23,7 @@ a, a:hover, a:active{
 }
 .tweet{
   background-color: #FFf;
-  height: 50px;
+  min-height: 50px;
   width: 40%;
   padding: 5px;
   border: 1px solid lightgrey;

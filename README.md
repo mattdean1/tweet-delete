@@ -3,6 +3,7 @@ A tool to help clean up your twitter account when applying for jobs etc.
 
 It analyses tweets and suggests negative ones for deletion.
 
+![screenshot](screenshot.png)
 
 sources:
   * [libary to keep api keys secret using environment variables](http://github.com/vlucas/phpdotenv)
