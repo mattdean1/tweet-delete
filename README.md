@@ -1,13 +1,13 @@
-# tweetdelete
-A tool to help clean up your twitter account when applying for jobs etc.
+# tweet-delete
+A tool to help clean up your twitter account, this app runs your tweets through sentiment analysis then suggests negative ones for deletion.
 
-Created in the early hours of the morning at Hackference in October 2015
+Created in the wee hours of the morning at Hackference in October 2015
 
-It analyses tweets and suggests negative ones for deletion.
+
 
 ![screenshot](screenshot.png)
 
 sources:
-  * [libary to keep api keys secret using environment variables](http://github.com/vlucas/phpdotenv)
-  * [library to authenticate with twitter](http://twitteroauth.com)
-  * [service to categorise tweets](http://help.sentiment140.com/api)
+  * [Libary to keep api keys secret using environment variables](http://github.com/vlucas/phpdotenv)
+  * [Library to authenticate with twitter](http://twitteroauth.com)
+  * [Service to categorise tweets](http://help.sentiment140.com/api)
