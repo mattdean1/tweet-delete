@@ -1,8 +1,11 @@
 <?php
-require '/vendor/autoload.php';
+require 'vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
-$dotenv = new Dotenv\Dotenv("./");
-$dotenv->load();
+
+if(getenv('devenvironment') == true){
+  $dotenv = new Dotenv\Dotenv("./");
+  $dotenv->load();
+}
 
 $access_token = getenv('access_token');
 $access_token_secret = getenv('access_token_secret');

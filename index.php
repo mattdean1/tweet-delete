@@ -56,7 +56,7 @@ $negdata = json_decode($result);
 
   <body>
     <div class="container-fluid">
-      <a href="home.php">
+      <a href="index.php">
       <div class="header">
         <h1><i class="fa fa-trash-o"></i> tweet.delete</h1>
       </div>

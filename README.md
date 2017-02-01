@@ -1,6 +1,8 @@
 # tweet-delete
 A tool to help clean up your twitter account, this app runs your tweets through sentiment analysis then suggests negative ones for deletion.
 
+**Can be deployed to Heroku!** - just set the environment variables in .env.example.
+
 Created in the wee hours of the morning at Hackference in October 2015
 
 

@@ -7,6 +7,6 @@ foreach ($_POST['tweet'] as $id){
 }
 //***redirect
 header("Status: 301 Moved Permanently");
-    header("Location:./home.php?maxid=".$_POST['maxid']);
+    header("Location:./index.php?maxid=".$_POST['maxid']);
     exit;
 ?>
